@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
 :root {
+  --darkreader-bg--white: #181a1b;
+  --darkreader-text--white: #e8e6e3;
+  --darkreader-border--white: #303436;
+  --darkreader-bg--black: #000000;
+  --darkreader-border--black: #8c8273;
+  --darkreader-text--dark-Gray: #9f978b;
+  --very-Dark-Gray: hsl(0, 0%, 41%);
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --dark-Gray: hsl(0, 0%, 55%);
   --very-Dark-Gray: hsl(0, 0%, 41%);
+  --darkreader-bg--white: #181a1b;
 }
 
 * {
@@ -17,6 +25,8 @@ html {
 }
 
 body {
+  background-color: var(--darkreader-bg--white);
+  color: #e8e6e3;
   font-family: 'Alata', sans-serif;
   overflow-x: hidden;
   min-height: 100vh;
@@ -294,7 +304,7 @@ footer {
   }
 
   header {
-    background-image: url(assets/images/image-hero)no-repeat;
+    background: url('../images/image-hero.jpg') no-repeat;
     background-size: contain;
     height: 100vh;
     width: 100vw;
@@ -348,7 +358,7 @@ footer {
   }
 
   .interactive .vr__image {
-    background: url(./images/desktop/image-interactive.jpg) no-repeat;
+    background: url('../images/image-interactive.jpg') no-repeat;
     background-size: contain;
     background-position: top;
     height: 45rem;
@@ -362,7 +372,7 @@ footer {
     padding: 6.2rem 5rem 5rem 7rem;
     top: 11rem;
     left: 35rem;
-    background-color: var(--white);
+    background-color: var(--darkreader-bg--white);
   }
 
   .interactive__content h2 {
@@ -399,28 +409,28 @@ footer {
   }
 
   .deep__earth {
-    background: url(./images/desktop/image-deep-earth.jpg) no-repeat;
+    background: url('../images/image-deep-earth.jpg') no-repeat;
   }
   .night__arcade {
-    background: url(./images/desktop/image-night-arcade.jpg) no-repeat;
+    background: url('../images/image-night-arcade.jpg') no-repeat;
   }
   .soccer__team {
-    background: url(./images/desktop/image-soccer-team.jpg) no-repeat;
+    background: url('../images/image-soccer-team.jpg') no-repeat;
   }
   .the__grid {
-    background: url(./images/desktop/image-grid.jpg) no-repeat;
+    background: url('../images/image-grid.jpg') no-repeat;
   }
   .from__up {
-    background: url(./images/desktop/image-from-above.jpg) no-repeat;
+    background: url('../images/image-from-above.jpg') no-repeat;
   }
   .pocket__borealis {
-    background: url(./images/desktop/image-pocket-borealis.jpg) no-repeat;
+    background: url('../images/image-pocket-borealis.jpg') no-repeat;
   }
   .the__curiosity {
-    background: url(./images/desktop/image-curiosity.jpg) no-repeat;
+    background: url('../images/image-curiosity.jpg') no-repeat;
   }
   .make__it {
-    background: url(./.make__it.jpg) no-repeat;
+    background: url('../images/image-fisheye.jpg') no-repeat;
   }
 
   .images {
