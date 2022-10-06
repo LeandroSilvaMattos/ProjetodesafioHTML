@@ -30,7 +30,7 @@ li {
 }
 
 header {
-  background: url(./images/image-hero) no-repeat;
+  background: url(./images/mobile/image-hero.jpg) no-repeat;
   background-size: contain;
   background-position: top;
   height: 100vh;
@@ -294,7 +294,7 @@ footer {
   }
 
   header {
-    background-image: url(assets/images/image-hero)no-repeat;
+    background: url(./images/desktop/image-hero.jpg) no-repeat;
     background-size: contain;
     height: 100vh;
     width: 100vw;
@@ -420,7 +420,7 @@ footer {
     background: url(./images/desktop/image-curiosity.jpg) no-repeat;
   }
   .make__it {
-    background: url(./.make__it.jpg) no-repeat;
+    background: url(./images/desktop/image-fisheye.jpg) no-repeat;
   }
 
   .images {
@@ -488,11 +488,3 @@ footer {
     margin-bottom: 2rem;
   }
 }
-
-
-
-
-
-    
-  
-
